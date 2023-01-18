@@ -1,0 +1,33 @@
+.nav {
+    background-color: gray;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav-links {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.nav-title {
+    color: white;
+    font-family: Roboto;
+}
+
+.btn {
+    box-shadow: 5px 5px 5px black;
+    background-color: rgba(76, 0, 255, 0.76);
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

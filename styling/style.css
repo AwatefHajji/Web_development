@@ -1,0 +1,34 @@
+#first{
+    background-color: black;
+    margin: 5px;
+    height: 50px;
+    
+}
+#second{
+    background-color: blueviolet;
+    margin: 5px;
+    height: 45px;
+    padding: 2px;
+}
+#third{
+    background-color: aqua;
+    margin: 5px;
+    height: 25px;
+    
+}
+h1{
+    color: white;
+    font-family: cursive;
+}
+span{
+    color: aqua;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

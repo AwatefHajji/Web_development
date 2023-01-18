@@ -1,0 +1,30 @@
+#search{
+    background-color: white;
+    text-decoration-color: aqua;
+    border-radius: 50px;
+    border-color: aqua;
+    color: aqua;
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    
+}
+#plus{
+    
+    background-color: aqua;
+    border-radius: 20px;
+    color : white;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-color: aqua;
+    
+}
+#creat{
+    box-shadow: 5px 5px 5px black;
+    background-color: rgba(76, 0, 255, 0.76);       
+    color: white;
+    height: 30px;
+    width: 200px;
+    
+}

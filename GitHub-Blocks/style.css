@@ -1,0 +1,48 @@
+* {}
+
+.container {
+    margin: auto;
+    height: 200px;
+    background-color: white;
+}
+
+h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.514);
+}
+
+#first {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+
+}
+
+#second {
+    display: flex;
+    justify-content: space-between;
+    background-color: palevioletred;
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+
+}
+
+#third {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+
+}
+
+h3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
