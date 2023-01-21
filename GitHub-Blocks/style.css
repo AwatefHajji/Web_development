@@ -24,7 +24,7 @@ h1 {
 
 #second {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: palevioletred;
     margin: 20px;
     padding: 20px;
