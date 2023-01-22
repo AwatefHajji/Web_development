@@ -84,7 +84,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-#education {
+.education {
     margin: 20px 20px;
     width: 350px;
     background-color: #fff;
