@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div>
+                <h1>Dojonary</h1>
+            </div>
+            <div>
+                <input type="text" placeholder="search" class="search">
+            </div>
+            <div>
+                <button id="btnLog" onclick="login('btnLog')">log in</button>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="leftMain">
+                <div class="ninja1">
+                    <div id="leftpart">
+                        <h1>ninja</h1><br>
+                        <p>noun</p><br>
+                        <p>plural: ninjas</p><br>
+                        <button class="btnLike" onclick="like(this)">13 Likes</button>
+                    </div>
+                    <div>
+                        <p> A practionner skilled in the <br><span><a href="#">Japanese</a></span> art of <span><a
+                                    href="#">ninjatsu</a></span> </p>
+                    </div>
+                </div>
+                <div class="ninja1">
+                    <div id="leftpart">
+                        <h1>ninja</h1><br>
+                        <p>noun</p><br>
+                        <p>plural: ninjas</p><br>
+                        <button class="btnLike" onclick="like(this)">37 Likes</button>
+                    </div>
+                    <div>
+                        <p>A <a href="#">Programmer </a>how break <br>down problems with <a
+                                    href="#">Zen</a>-like focus </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rightMain">
+               
+                    <h1>Dojorany is defined by YOU</h1><br>
+                   <button id="addDef" onclick="removeDef('addDef')">Add Definition</button>
+                
+            </div>
+        </div>
+
+
+    </div>
+    <script src="scripte.js"></script>
+</body>
+
+</html>

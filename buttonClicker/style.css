@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: cursive , sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 900px;
+    border: 1px solid #999;
+}
+
+ #header{
+    background-color: #CCCCCC;
+    height: 80px;
+    width:900px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    position:sticky;
+    top:0;
+   } 
+   .search{
+    width: 300px;
+   }
+   #btnLog {
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+.ninja1{
+    padding: 20px;
+    margin: 20px 20px;
+    width: 350px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#leftpart{
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.btnLike {
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: #FFD966;
+    color: #000000;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+.rightMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    padding: 20px;
+    margin: 20px 20px;
+    width: 250px;
+    height: 150px;
+    border: 2px solid #000;
+    }
+#main{
+    display: flex;
+}
+#addDef{
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: #93C47D;
+    color: #ffffff;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
