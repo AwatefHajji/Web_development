@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Header Start -->
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Main Start -->
+        <div class="main">
+            <div class="mainHeader">
+                <h1>Your feed</h1>
+            </div>
+            <div id="mainBody">
+                <div id="userName">
+                    <img src="user-circle.png" alt="user-avatar">
+                    <a href="#">Add on avatar</a>
+                    <h1>James Doe</h1>
+                </div>
+                <div id="feed">
+                    <!-- first Feed -->
+                    <div class="feedBack">
+                        <div id="Info">
+                            <h1>Neil M</h1>
+                            <div class="likes">
+                                <p><span id="like-1">9</span> like(s)</p>
+                                <button class="btnLike" onclick="likeInc('#like-1')">Like</button>
+                            </div>
+                        </div>
+                        <br>
+                        <p>I just set up this new discord bot,let me know what you all think.<a href="#">Link</a></p>
+
+                    </div>
+                    <!-- second Feed -->
+                    <div class="feedBack">
+                        <div id="Info">
+                            <h1>Nichole K</h1>
+                            <div class="likes">
+                                <p><span id="like-2">12</span> like(s)</p>
+                                <button class="btnLike" onclick="likeInc('#like-2')">Like</button>
+                            </div>
+                        </div>
+                        <br>
+                        <p>Just finished my <a href="#">next comic</a>, check it out</p>
+                    </div>
+                    <!-- third Feed -->
+                    <div class="feedBack">
+                        <div id="Info">
+                            <h1>Jim R</h1>
+                            <div class="likes">
+                                <p><span id="like-3">9</span> like(s)</p>
+                                <button class="btnLike" onclick="likeInc('#like-3')">Like</button>
+                            </div>
+                        </div>
+                        <br>
+                        <p>I can't stop listening to the <a href="#">new album.</a> who else is liking it</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripte.js"></script>
+</body>
+
+</html>
