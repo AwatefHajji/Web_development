@@ -1,0 +1,112 @@
+/*universel.selector.reset.default*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* Style container start */
+.container{
+    margin: 0 auto;
+    width: 900px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ /* Style container End */
+ /* Style Header start */
+.header{
+    background-color: #C3DEF8;
+    display: flex;
+   justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px ;
+}
+.app-logo{
+    display: flex;
+    align-items: center;
+}
+.app-logo img{
+    width: 50px;
+}
+.app-logo h1{
+    color: white;
+}
+#text-logo{
+    color: #545B62;
+}
+button{
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+button:active{
+    box-shadow: none;
+}
+.LogRegLogBtn button{
+    margin-right: 30px;
+}
+#RegBtn{
+    font-weight: 900;
+    width: 90px;
+    margin-right: 20px;
+}
+#LogBtn{
+    color: white;
+    background-color: #085394;
+    width: 60px;
+    font-weight: 600;
+ }
+ #LogBtn:hover{
+    background-color: red;
+ }
+/* Style Header End */
+
+/* Style Main Start */
+.nftCard{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+.nftCard img{
+    width: 300px;
+    height: 200px;
+    border: #545B62 2px solid;
+    border-radius: 20px;
+}
+.nftCard h1{
+    font-size: 40px;
+}
+.nftCard p{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nftCard button{
+    background-color: #17CFD1;
+    color: white;
+    padding: 5px 10px;
+
+}
+/* Style Main End */
+#popup{
+   
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+#popup p{
+    font-size: 22px;
+
+}
+#popup button{ 
+    background-color: #CA6899;
+    color: white;
+    width: 100px;
+}

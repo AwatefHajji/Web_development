@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belt Demo</title>
+</head>
+
+<body>
+    <!-- container start -->
+    <!-- container>.header+.main -->
+    <div class="container">
+        <!-- Header Start -->
+        <div class="header">
+            <div class="app-logo">
+                <img src="images/nft-logo.png" alt="">
+                <h1>NFT<span id="text-logo">Store</span></h1>
+            </div>
+            <div class="LogRegLogBtn">
+                <button id="RegBtn">Regiter</button>
+                <button id="LogBtn" onclick="Logout('LogBtn')">Login</button>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Main Start -->
+        <div class="main">
+            <!-- NftCard1 -->
+            <div class="nftCard">
+                <img src="/images/1.jpg" alt="">
+                <h1>Price : 7 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like-1">5</span> Likes</p>
+                    <br>
+                    <button onclick="like('like-1')">Likes</button>
+                    <button onclick="remove('nftCard')">Buy</button>
+                </div>
+
+            </div>
+            <!-- NftCard2 -->
+            <div class="nftCard">
+                <img src="/images/2.jpg" alt="">
+                <h1>Price : 7 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like-2">10</span> Likes</p>
+                    <br>
+                    <button onclick="like('like-2')">Likes</button>
+                    <button onclick="remove('nftCard')">Buy</button>
+                </div>
+
+            </div>
+            <!-- NftCard3 -->
+            <div class="nftCard">
+                <img src="/images/3.jpg" alt="">
+                <h1>Price : 7 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like-3">7</span> Likes</p>
+                    <br>
+                    <button onclick="like('like-3')">Likes</button>
+                    <button onclick="remove('nftCard')">Buy</button>
+                </div>
+
+            </div>
+            <!-- NftCard4 -->
+            <div class="nftCard">
+                <img src="/images/4.jpg" alt="">
+                <h1>Price : 7 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like-4">15</span> Likes</p>
+                    <br>
+                    <button onclick="like('like-4')">Likes</button>
+                    <button onclick="remove('nftCard')">Buy</button>
+                </div>
+
+            </div>
+            <!-- NftCard5 -->
+            <div class="nftCard">
+                <img src="/images/5.png" alt="">
+                <h1>Price : 7 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like-5">8</span> Likes</p>
+                    <br>
+                    <button onclick="like('like-5')">Likes</button>
+                    <button onclick="remove('nftCard')">Buy</button>
+                </div>
+
+            </div>
+             <!-- NftCard6 -->
+             <div class="nftCard">
+                <img src="/images/6.png" alt="">
+                <h1>Price : 7 M $</h1>
+                <div class="cardLikes">
+                    <p><span id="like-6">20</span> Likes</p>
+                    <br>
+                    <button onclick="like('like-6')">Likes</button>
+                    <button onclick="remove('nftCard')">Buy</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- Main End -->
+        <!-- popup Start -->
+        <div id="popup">
+            <p>This site makes use of third-party cookies. By clicking "I Accept" <br>you agree to the terms outlined in
+                our <a href="#">cookie policy.</a>
+            </p>
+            <button onclick="remove('popup')">I accept</button>
+        </div>
+          <!-- popup End -->
+    </div>
+    <!-- Container End -->
+<script src="scripte.js"></script>
+</body>
+
+</html>
