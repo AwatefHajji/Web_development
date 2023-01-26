@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Roboto , sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid #999;
+}
+ #header{
+    background-color: black;
+    height: 80px;
+    width:1000px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position:sticky;
+    top:0;
+   } 
+.link{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+#tx{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.link> li> a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.titel{
+    margin: 0 20px;
+}
+.btn {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+.userCard {
+    margin: 20px 20px;
+    width: 400px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+#headerCard {
+    margin-bottom: 50px;
+    height: 120px;
+    background-color: #17A2B8;  
+}
+#headerCard img {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+#mainCard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#mainCard> h1 h4 p a {
+    font-family:'roboto';
+    margin: 20px 0px;
+}
+#mainCard> a:hover{ color: red;}
+.icon{
+    height: 20px;
+}
+.leftMain{
+    display: flex;
+    flex-direction: column;
+}
+.education {
+    margin: 20px 20px;
+    width: 400px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    }
+    .rightMain>.education{ 
+        width: 350px;
+    }
+.headEdu{
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.mainEdu{
+    padding: 20px;
+}
+#education> h4 p {
+    font-family:'roboto';
+    padding: 20px 0px;
+}
+span{
+    color: #999;
+}
+
+#connectionsNumber{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    background-color: #999;
+    border-radius: 1px solid ;
+    color: white;
+    font-size: large;
+}
+#connectionRequestNumber{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    background-color: #999;
+    border-radius: 1px solid ;
+    color: white;
+    font-size: large;
+}
+.friendRequest{
+        list-style-type: none;
+}
+.friendRequest img{
+   
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+.friend{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+}
+.friend img{
+    
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+.list{
+    display: flex;
+    font-size: large;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.info {display: flex;
+    align-items: center;
+}
+.friend>.list{
+    justify-content: space-around;
+}
+.list h3 {
+    margin: 20px 0px;
+}
+.footEdu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 35px;
+    border-top: 3px solid gray;
+}
